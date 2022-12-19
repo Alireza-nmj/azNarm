@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Narm</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <form>
+        <select id="mySelect" size="1">
+          <option>Apple</option>
+          <option>Pear</option>
+          <option>Banana</option>
+          <option>Orange</option>
+        </select>
+      </form>
+    </div>
+
+    <div>
+      <input type="text" id="myInput" placeholder="Add..." />
+      <button type="button" onclick="newElement()">Add</button>
+    </div>
+
+    <div>
+      <form action="">
+        <p>Please select :</p>
+        <input
+          class="radio"
+          type="radio"
+          id="html"
+          name="fav_character"
+          value="HTML"
+        />
+        <label for="html">Mahan1</label><br />
+        <input type="radio" id="css" name="fav_character" value="CSS" />
+        <label for="css">Mahan2</label><br />
+        <input
+          type="radio"
+          id="javascript"
+          name="fav_character"
+          value="JavaScript"
+        />
+        <label for="javascript">Mahan3</label>
+
+        <p>Please select your age:</p>
+        <input type="radio" id="age1" name="age" value="30" />
+        <label for="age1">15 - 20</label><br />
+        <input type="radio" id="age2" name="age" value="60" />
+        <label for="age2">20 - 25</label><br />
+        <input type="radio" id="age3" name="age" value="100" />
+        <label for="age3">25 - 30</label><br /><br />
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+  <script src="App.js"></script>
+</html>
